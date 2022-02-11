@@ -18,7 +18,7 @@ tb <- NULL
 
 permuteHIV <- function(df, random = TRUE){
   tb <- df
-  first_half <- ceiling(nrow(tb)/2)
+  first_half <- ceiling(2222)
   second_half <- nrow(tb) - first_half
   
   if(random == TRUE){
