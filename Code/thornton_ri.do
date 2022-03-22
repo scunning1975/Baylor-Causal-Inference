@@ -24,6 +24,8 @@ forvalues i = 2/1000 {
 
 use "`hiv'", replace
 
+drop if any==.
+
 drop any // drop the treatment assignemt
 set seed `i'
 gen random_`i' = runiform()
